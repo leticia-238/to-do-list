@@ -1,0 +1,1 @@
+const saveData=()=>{const a=document.querySelectorAll(".text-task"),b=[];a.forEach(a=>{b.push(a.value)}),localStorage.setItem("tasks",JSON.stringify(b))},getData=a=>{const b=localStorage.getItem("tasks");if(b){const c=JSON.parse(b);c.forEach(b=>{a(b)})}};export{saveData,getData};
