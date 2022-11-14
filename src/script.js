@@ -1,5 +1,5 @@
-import { buttons } from "./modules/buttons.mjs";
-import { saveData, getData } from "./modules/saveTodoList.mjs";
+import { buttons } from "./modules/buttons.mjs"
+import { saveData, getData } from "./modules/saveTodoList.mjs"
 
 const tasks = document.querySelector(".tasks");
 const buttonAddNewTask = document.querySelector(".add");

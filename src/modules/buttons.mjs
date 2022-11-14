@@ -1,4 +1,4 @@
-import { saveData } from "./saveTodoList.mjs";
+import { saveData } from "./saveTodoList.mjs"
 
 const completeTask = (e) => {
   const task = e.currentTarget.parentElement;

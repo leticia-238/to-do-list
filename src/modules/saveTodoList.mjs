@@ -17,4 +17,4 @@ const getData = (createTask) => {
   }
 };
 
-export { saveData, getData };
+export { saveData, getData }
